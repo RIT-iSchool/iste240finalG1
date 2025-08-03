@@ -1,7 +1,7 @@
 <?php
-    $page='home';
-    $title = "UNIX for Web Devs - Homepage";
-    $path = './';
+    $page='command-lookup';
+    $title = "UNIX for Web Devs - Command Lookup";
+    $path = '../';
     require $path.'.assets/inc/header.php';
     require_once $path.'.assets/inc/nav.php';
 
@@ -20,4 +20,4 @@
     $mysqli->close();
 ?>
 
-<?php include('.assets/inc/footer.php'); ?>
+<?php include('../.assets/inc/footer.php'); ?>
