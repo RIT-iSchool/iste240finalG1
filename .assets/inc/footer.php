@@ -5,33 +5,33 @@
                 <div>
                     <h4>Quick Links</h4>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Start Here</a></li>
-                        <li><a href="#">Command Lookup</a></li>
+                        <li><a href="<?php echo isset($path) ? $path : ''; ?>index.php">Home</a></li>
+                        <li><a href="<?php echo isset($path) ? $path : ''; ?>why-unix/">About</a></li>
+                        <li><a href="<?php echo isset($path) ? $path : ''; ?>about/">Start Here</a></li>
+                        <li><a href="<?php echo isset($path) ? $path : ''; ?>command-lookup/">Command Lookup</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4>Learning Paths</h4>
                     <ul>
-                        <li><a href="#">Beginner Track</a></li>
-                        <li><a href="#">Intermediate Track</a></li>
-                        <li><a href="#">Advanced Topics</a></li>
+                        <li><a href="<?php echo isset($path) ? $path : ''; ?>about/">Beginner Track</a></li>
+                        <li><a href="<?php echo isset($path) ? $path : ''; ?>core-tools/">Intermediate Track</a></li>
+                        <li><a href="<?php echo isset($path) ? $path : ''; ?>chmod-simulator/">Advanced Topics</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4>Resources</h4>
                     <ul>
-                        <li><a href="#">All Tutorials</a></li>
-                        <li><a href="#">Quiz Center</a></li>
-                        <li><a href="#">Interactive Tools</a></li>
+                        <li><a href="<?php echo isset($path) ? $path : ''; ?>tutorials/">All Tutorials</a></li>
+                        <li><a href="<?php echo isset($path) ? $path : ''; ?>quizzes/">Quiz Center</a></li>
+                        <li><a href="<?php echo isset($path) ? $path : ''; ?>chmod-simulator/">Interactive Tools</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4>Feedback</h4>
                     <ul>
-                        <li><a href="#">Submit Suggestions</a></li>
-                        <li><a href="#">Learning Reflection</a></li>
+                        <li><a href="<?php echo isset($path) ? $path : ''; ?>feedback/">Submit Suggestions</a></li>
+                        <li><a href="<?php echo isset($path) ? $path : ''; ?>feedback/#reflection">Learning Reflection</a></li>
                     </ul>
                     <button id="dark-mode-toggle">
                         <svg id="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
