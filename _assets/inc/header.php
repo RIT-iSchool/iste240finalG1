@@ -15,4 +15,5 @@
 </head>
 <body class="bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text">
 
+<?php require_once (isset($path) ? $path : './').'_assets/inc/nav.php'; ?>
  
