@@ -46,6 +46,6 @@
         </div>
     </footer>
 
-    <script src="<?php echo isset($path) ? $path : ''; ?>.assets/js/script.js"></script>
+    <script src="<?php echo isset($path) ? $path : ''; ?>_assets/js/script.js"></script>
 </body>
 </html>

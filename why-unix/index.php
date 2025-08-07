@@ -2,10 +2,10 @@
     $page='why-unix';
     $title = "UNIX for Web Devs - Why UNIX?";
     $path = '../';
-    require $path.'.assets/inc/header.php';
-    require_once $path.'.assets/inc/nav.php';
+    require $path.'_assets/inc/header.php';
+    require_once $path.'_assets/inc/nav.php';
 
-    require $path.'../../../../dbConnect';
+    require '../../../../dbConnect.inc';
 
     $sql = 'SELECT content from modularSite where name=$page';
     $result = $mysqli->query($sql);
@@ -20,4 +20,4 @@
     $mysqli->close();
 ?>
 
-<?php include('../.assets/inc/footer.php'); ?>
+<?php include('../_assets/inc/footer.php'); ?>

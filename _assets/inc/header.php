@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;900&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     
     <!-- Vanilla CSS Styles -->
-    <link rel="stylesheet" href="<?php echo isset($path) ? $path : ''; ?>.assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo isset($path) ? $path : './'; ?>_assets/css/style.css">
 </head>
 <body class="bg-light-bg text-light-text dark:bg-dark-bg dark:text-dark-text">
 
