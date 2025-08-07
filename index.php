@@ -6,7 +6,7 @@
 
     require '../../../dbConnect.inc';
 
-    $sql = 'SELECT content from modularSite where name=?';
+    $sql = 'SELECT content from groupSite where name=?';
     $stmt = $mysqli->prepare($sql);
     
     if ($stmt) {
@@ -29,4 +29,4 @@
     $mysqli->close();
 ?>
 
-<?php include('_assets/inc/footer.php'); ?>
+<?php include($path.'_assets/inc/footer.php'); ?>
